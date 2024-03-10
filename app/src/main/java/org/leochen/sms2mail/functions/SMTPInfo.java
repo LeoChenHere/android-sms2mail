@@ -13,4 +13,6 @@ public class SMTPInfo {
     private static final String SMTP_PASSWORD = "xxx";
     @Getter
     private static final String SMTP_FROM = "xxx@163.com";
+    @Getter
+    private static final String SMTP_TO = "leochen.here@gmail.com";
 }

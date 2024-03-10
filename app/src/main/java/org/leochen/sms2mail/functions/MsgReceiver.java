@@ -18,7 +18,7 @@ public class MsgReceiver extends BroadcastReceiver {
 
         Properties msg = query(context);
 
-        String to = "leochen.here@gmail.com";
+        String to = SMTPInfo.getSMTP_TO();
         StringBuffer subject = new StringBuffer();
         subject.append("來自: ");
         subject.append(msg.getProperty("address"));
