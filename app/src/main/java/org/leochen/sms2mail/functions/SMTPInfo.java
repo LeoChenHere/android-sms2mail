@@ -14,5 +14,5 @@ public class SMTPInfo {
     @Getter
     private static final String SMTP_FROM = "xxx@163.com";
     @Getter
-    private static final String SMTP_TO = "leochen.here@gmail.com";
+    private static final String SMTP_TO = "ooo@gmail.com";
 }
